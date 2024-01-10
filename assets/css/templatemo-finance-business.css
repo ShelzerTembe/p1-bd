@@ -1233,6 +1233,11 @@ footer .contact-form button.filled-button:hover {
 
 
 /* Responsive Style */
+@media (min-width: 768px) {
+.navbar-brand{
+	display:none;
+}
+}
 @media (max-width: 768px) {
 	.sub-header {
 		display: none;
@@ -1241,6 +1246,13 @@ footer .contact-form button.filled-button:hover {
 	  margin-bottom: 15px;
 	  font-size: 18px;
 	}
+	.logo{
+		display:none;
+	}
+
+	.navbar-brand{
+	}
+
 	.Modern-Slider .item h4 {
 	  margin-bottom: 25px;
 	  font-size: 28px;
