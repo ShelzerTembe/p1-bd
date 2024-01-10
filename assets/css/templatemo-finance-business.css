@@ -1241,6 +1241,14 @@ footer .contact-form button.filled-button:hover {
 	
 
 }
+@media (max-height:200px){
+	.logo{
+		display:none;
+	}
+	.navbar-brand{
+			display:none;
+	}
+}
 @media (min-width: 768px) {
 .navbar-brand{
 	display:none;
