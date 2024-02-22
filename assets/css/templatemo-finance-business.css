@@ -16,6 +16,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.title-xwi{
+	margin-top: 8%;
+}
+
 
 .align-center{
 	margin-top:2%;
@@ -38,6 +42,11 @@ ul {
 
 h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
+}
+
+.h5{
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 p{
@@ -1382,4 +1391,17 @@ footer .contact-form button.filled-button:hover {
 	.navbar-brand{
 			display:none;
 	}
+}
+
+@media (min-width:900px){
+.img-xwi{
+	position: relative;
+	}
+	
+	.pic-xwi{
+		position: absolute;
+		left: 32vw;
+		top: 48vh;
+	}
+
 }
