@@ -1256,8 +1256,15 @@ footer .contact-form button.filled-button:hover {
 	font-size: 15px;
 }
 
-
-
+/* Estilize o slide conforme desejado */
+.slide-container {
+            display: flex;
+            overflow:hidden;
+ }
+.slide {
+            flex: 0 0 100%;
+            transition: transform 0.5s ease-in-out;
+}
 
 /* Responsive Style */
 @media (max-height:600px){
