@@ -5,6 +5,18 @@ TemplateMo - Finance Business
 https://templatemo.com/tm-545-finance-business
 
 */
+
+.alinhada{
+	max-width: 400px;
+	text-align: left;	
+}
+
+.alinhadas{
+	max-width: 300px;
+	text-align: right;
+
+	
+}
 :root{
 --color:#0355cc;
 }
