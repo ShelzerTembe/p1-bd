@@ -7,8 +7,17 @@ https://templatemo.com/tm-545-finance-business
 */
 :root{
 --color:#0355cc;
+--mintitle:#FFD700;	
+--titleh1-h6:#1803FF;
+}
+.ima-pic0{
+	position: relative;
+
 }
 
+.ima-pic1{ position: absolute;
+
+}
 .alinhada{
 	width: 300px;
 }
@@ -1119,8 +1128,8 @@ footer .contact-form button.filled-button:hover {
 
 .team {
 	background-color: #f7f7f7;
-	margin-top: 140px;
-	margin-bottom: -140px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 	padding: 120px 0px;
 }
 
@@ -1269,6 +1278,94 @@ footer .contact-form button.filled-button:hover {
             flex: 0 0 100%;
             transition: transform 0.5s ease-in-out;
 }
+.h4-about{
+  font-family: "Roboto", sans-serif;
+  color: var(--titleh1-h6);
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: normal;
+}
+/* Mergin styles */
+
+/* line 59, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_team.scss */
+.about-details .about-details-cap h4 {
+	font-size: 30px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	margin-bottom: 30px;
+	color: #000a2d;
+	display: inline-block;
+	position: relative;
+	padding-left: 68px;
+  }
+  
+  /* line 69, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_team.scss */
+  .about-details .about-details-cap h4::before {
+	position: absolute;
+	content: "";
+	width: 54px;
+	height: 2px;
+	background: var(--mintitle);
+	top: 0;
+	left: 0px;
+	top: 50%;
+	transform: translateY(-50%);
+  }
+  
+  /* line 81, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_team.scss */
+  .about-details .about-details-cap p {
+	color: #464d65;
+	font-size: 14px;
+  }
+
+
+
+/* line 797, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+.section-padding30 {
+	padding-top: 70px;
+	padding-bottom: 70px;
+  }
+  
+  @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+	/* line 797, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+	.section-padding30 {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	  }
+	}
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+	/* line 797, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+	.section-padding30 {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	  }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+	/* line 797, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+	.section-padding30 {
+	  padding-top: 70px;
+	  padding-bottom: 70px;
+	}
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+	/* line 797, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+	.section-padding30 {
+	  padding-top: 65px;
+	  padding-bottom: 30px;
+	}
+  }
+  
+  @media (max-width: 575px) {
+	/* line 797, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
+	.section-padding30 {
+	  padding-top: 65px;
+	  padding-bottom: 30px;
+	}
+  }
 
 /* Responsive Style */
 @media (max-height:600px){
