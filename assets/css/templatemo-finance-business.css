@@ -8,6 +8,10 @@ https://templatemo.com/tm-545-finance-business
 :root{
 --color:#0355cc;
 }
+
+.alinhada{
+	width: 300px;
+}
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
