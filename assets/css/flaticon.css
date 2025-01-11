@@ -31,3 +31,16 @@ font-style: normal;
 .flaticon-development:before { content: "\f100"; }
 .flaticon-result:before { content: "\f101"; }
 .flaticon-team:before { content: "\f102"; }
+
+.material-icons{
+  color:#0355cc;
+  text-align: left;
+}
+.material-icons:hover{
+  background-color: #0355cc;
+  color:white;
+  text-align: left;
+	transition-duration: 1s;
+  padding: 10px;
+  border-radius: 10px;
+}
