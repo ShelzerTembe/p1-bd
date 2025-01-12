@@ -10,6 +10,10 @@ https://templatemo.com/tm-545-finance-business
 --mintitle:#FFD700;	
 --titleh1-h6:#1803FF;
 }
+
+.section-shel{
+	margin-top: 20vh;
+}
 .ima-pic0{
 	position: relative;
 
@@ -1337,6 +1341,13 @@ footer .contact-form button.filled-button:hover {
 	padding-bottom: 70px;
   }
   
+  @media (max-width: 600px) {
+
+	.section-shel{
+		margin-top: 20vh;
+	}
+	
+  }
   @media only screen and (min-width: 1200px) and (max-width: 1600px) {
 	/* line 797, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 	.section-padding30 {
