@@ -10,10 +10,15 @@ https://templatemo.com/tm-545-finance-business
 --mintitle:#FFD700;	
 --titleh1-h6:#1803FF;
 }
-
-.section-shel{
-	margin-top: 20vh;
+.event-title {
+	margin-top: 20px;
+	text-align: center;
 }
+.carousel-item img {
+	width: 100%;
+	height: auto;
+}
+
 .ima-pic0{
 	position: relative;
 

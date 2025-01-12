@@ -12,128 +12,177 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
 
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
    <!-- Bootstrap core CSS -->
    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-   <!-- Additional CSS Files -->
-   <link rel="stylesheet" href="assets/css/fontawesome.css">
-   <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
-   <link rel="stylesheet" href="assets/css/owl.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .event-title {
             margin-top: 20px;
             text-align: center;
         }
         .carousel-item img {
-            width: 100%;
+            max-width:300px;	;
             height: auto;
         }
+        .mt-5{
+              margin-top: 10vh;
+              margin-bottom: 10vh;
+            }
+            .e2e{
+              max-width: 800px;
+              margin-left: 15vw;
+              text-align: justify;
+            }
+
+            @media only screen (max-width:800px) {
+              .e2e{
+              max-width: 500px;
+              margin-left: 30vw;
+              text-align: justify;
+            }
+            .carousel-item img {
+            max: width 1px;00px;	;
+            height: auto;
+        }
+            }
     </style>
+   <!-- Additional CSS Files -->
+   <link rel="stylesheet" href="assets/css/fontawesome.css">
+   <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
+   <link rel="stylesheet" href="assets/css/owl.css">
+   <link rel="stylesheet" href="assets/css/event.css">
+   
 </head>
 <body>
- 
-<!-- Header -->
-<div class="sub-header">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-xs-12">
-        <ul class="left-info">
-          <li><a href="#"><i class="fa fa-clock-o"></i>Segunda á Sexta feira 09:00-17:00</a></li>
-          <li><a href="tel:+258876052013"><i class="fa fa-phone"></i>+258 87 605 2013</a></li>
-        </ul>
+  
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+      <div class="jumper">
+          <div></div>
+          <div></div>
+          <div></div>
       </div>
-      <div class="col-md-4">
-        <ul class="right-icons">
-          <li><a href="mailto:info@bdiversity.co.mz?subject=Mensagem%20(Business%20Diversity%20CE-ws)"><i class="fa fa-envelope "></i></a></li>
-          <li><a href="https://bit.ly/Business-Diversity-fb" target="_blank" rel="social media"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="https://bit.ly/LinkedInBDiversity" target="_blank" rel="redes sociais"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="https://wa.me/258876052013" target="_blank" rel="social media"><i class="fa fa-whatsapp"></i></a></li>
-        </ul>
+  </div>  
+  <!-- ***** Preloader End ***** -->
+
+  <!-- Header -->
+<div class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-xs-12">
+          <ul class="left-info">
+            <li><a href="#"><i class="fa fa-clock-o"></i>Segunda á Sexta feira 09:00-17:00</a></li>
+            <li><a href="tel:+258876052013"><i class="fa fa-phone"></i>+258 87 605 2013</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="right-icons">
+            <li><a href="mailto:info@bdiversity.co.mz?subject=Mensagem%20(Business%20Diversity%20CE-ws)"><i class="fa fa-envelope "></i></a></li>
+            <li><a href="https://bit.ly/Business-Diversity-fb" target="_blank" rel="social media"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://bit.ly/LinkedInBDiversity" target="_blank" rel="redes sociais"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://wa.me/258876052013" target="_blank" rel="social media"><i class="fa fa-whatsapp"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>  
+  
+  <header class="">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+         <!-- Logo --> 
+         <div class="col-xl-2 col-lg-2">
+           <div class="logo">
+              <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+            </div>
+          </div>
+          <a class="navbar-brand" href="index.html"><h2>Business Diversity CE</h2></a>
+        <!--<a class="navbar-brand" href="index.html"><h2>Business Diversity</h2></a>-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Início
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Os nossos serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Enventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacte-nos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about_EN.html">EN <i class="fa fa-language" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page Content -->
+  <div class="page-heading header-text">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Sobre nós</h1>
+          <span>Estamos a quase 8 anos no mercado</span>
+        </div>
+          <!--<div class="align-center">
+            <a href="assets/doc/Company Profile Business Diversity (actualizado).pdf" download="Business-Diversity-CE.pdf">
+                <button class="btn-outline-danger"><i class="icon-down-circled2 "></i>Baixar o perfil da Empresa</button>
+            </a>
+          </div>-->
       </div>
     </div>
   </div>
-</div>
+  
+  <div class="container">
+    <h1 class="event-title">Próximos Eventos</h1>
 
-<header class="">
-  <nav class="navbar navbar-expand-lg">
-    <div class="container">
-       <!-- Logo --> 
-       <div class="col-xl-2 col-lg-2">
-         <div class="logo">
-            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-          </div>
-        </div>
-        <a class="navbar-brand" href="index.html"><h2>Business Diversity CE</h2></a>
-      <!--<a class="navbar-brand" href="index.html"><h2>Business Diversity</h2></a>-->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#top">Início
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #666666; text-shadow: 1px 1px 0px white;">Sobre nós</a>
-          </li>  
-          <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #666666; text-shadow: 1px 1px 0px white;">Os nossos serviços</a>
-          </li>      
-          <li class="nav-item">
-            <a class="nav-link" href="#"style="color: #666666; text-shadow: 1px 1px 0px white  ">Eventos
-                <span class="sr-only">(current)</span>
-            </a>
-          </li>             
-          <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #666666; text-shadow: 1px 1px 0px white ">Contacte-nos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #666666; text-shadow: 1px 1px 0px white ">EN |PT <!--<i class="fa fa-language" aria-hidden="true"></i>--></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
-
-<section class="section-shel">
-            <h1 class="event-title">Próximos Eventos</h1>
-    
-        <div id="eventCarousel" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://via.placeholder.com/800x400?text=Evento+1" alt="Evento 1">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Evento 1</h5>
-                        <p>Descrição do Evento 1.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="https://via.placeholder.com/800x400?text=Evento+2" alt="Evento 2">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Evento 2</h5>
-                        <p>Descrição do Evento 2.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="https://via.placeholder.com/800x400?text=Evento+3" alt="Evento 3">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Evento 3</h5>
-                        <p>Descrição do Evento 3.</p>
-                    </div>
+    <div id="eventCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/images/more-info.jpg" alt="Evento 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Workshop</h5>
+                    <p class="e2e">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque quae ipsam atque saepe amet molestiae at obcaecati a. Corrupti quae amet magni ad fugit harum ipsa, veniam voluptate commodi.</p>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#eventCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#eventCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Próximo</span>
-            </a>
-</section>
+            <div class="carousel-item">
+                <img src="assets/images/About.jpg" alt="Evento 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Team Bulding</h5>
+                    <p class="e2e">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates adipisci aliquid, doloremque pariatur ea repellat, eligendi minima repudiandae reprehenderit earum enim sit nam deleniti ducimus possimus magni consequatur voluptas.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/service_00.jpg" alt="Evento 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Webnar</h5>
+                    <p class="e2e">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sit velit repellat! Possimus facilis eum, quod dolor aperiam asperiores voluptatibus sequi qui libero molestias. Eveniet asperiores odio error dignissimos temporibus.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#eventCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#eventCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
 
     <div class="mt-5">
         <h2>Detalhes dos Eventos</h2>
@@ -144,9 +193,87 @@
         </ul>
     </div>
 </div>
+  
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Footer Starts Here -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 footer-item">
+            <h4>Business Diversity CE, SA</h4>
+            <p>Ajudamos os nossos parceiros a concentrarem-se nos seus negócios principais, enquanto  assumimos as suas operações de back office.
+            </p>
+            <ul class="social-icons">
+              <li><a rel="nofollow" href="https://fb.com/templatemo" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-item">
+            <h4>Links úteis</h4>
+            <ul class="menu-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Consultoria</a></li>
+              <li><a href="#">Localização no maps</a></li>
+              <li><a href="#">Agendar reunião</a></li>
+              <li><a href="#">EN</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-item">
+            <h4>Páginas adicionais</h4>
+            <ul class="menu-list">
+              <li><a href="#">Notícias</a></li>
+              <li><a href="#">Como trabalhamos</a></li>
+              <li><a href="#">Suporte rápido</a></li>
+              <li><a href="#">Contactar-nos</a></li>
+              <li><a href="#">Política de privacidade</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-item last-item">
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Copyright &copy; 2024 Business Diversity CE, SA.
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+</body>
+</html>
 </body>
 </html>
